@@ -1,6 +1,5 @@
 #pragma once
 #include "tema.h"
-#include "stdafx.h"
 class NodoTema
 {
 private:
@@ -18,10 +17,10 @@ public:
 	void setTema(tema *);
 
 	NodoTema *getSgte();
-	NodoTema setSgte();
+	NodoTema setSgte(NodoTema *);
 
 	NodoTema *getAnte();
-	NodoTema setAnte();
+	NodoTema setAnte(NodoTema *);
 
 };
 

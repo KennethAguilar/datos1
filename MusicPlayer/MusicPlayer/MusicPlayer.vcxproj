@@ -81,16 +81,44 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Genero.h" />
+    <ClInclude Include="Grupo.h" />
+    <ClInclude Include="Interprete.h" />
+    <ClInclude Include="ListaCancionXinterprete.h" />
+    <ClInclude Include="ListaGenero.h" />
+    <ClInclude Include="ListaGrupo.h" />
+    <ClInclude Include="ListaInterprete.h" />
+    <ClInclude Include="ListaPersonalizada.h" />
     <ClInclude Include="ListaTema.h" />
+    <ClInclude Include="NodoCancionXinterprete.h" />
+    <ClInclude Include="NodoGenero.h" />
+    <ClInclude Include="NodoGrupo.h" />
+    <ClInclude Include="NodoInterprete.h" />
+    <ClInclude Include="NodoPersonalizada.h" />
     <ClInclude Include="NodoTema.h" />
+    <ClInclude Include="Personalizada.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="tema.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Genero.cpp" />
+    <ClCompile Include="Grupo.cpp" />
+    <ClCompile Include="Interprete.cpp" />
+    <ClCompile Include="ListaCancionXinterprete.cpp" />
+    <ClCompile Include="ListaGenero.cpp" />
+    <ClCompile Include="ListaGrupo.cpp" />
+    <ClCompile Include="ListaInterprete.cpp" />
+    <ClCompile Include="ListaPersonalizada.cpp" />
     <ClCompile Include="ListaTema.cpp" />
     <ClCompile Include="MusicPlayer.cpp" />
+    <ClCompile Include="NodoCancionXinterprete.cpp" />
+    <ClCompile Include="NodoGenero.cpp" />
+    <ClCompile Include="NodoGrupo.cpp" />
+    <ClCompile Include="NodoInterprete.cpp" />
+    <ClCompile Include="NodoPersonalizada.cpp" />
     <ClCompile Include="NodoTema.cpp" />
+    <ClCompile Include="Personalizada.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="tema.cpp" />
   </ItemGroup>
