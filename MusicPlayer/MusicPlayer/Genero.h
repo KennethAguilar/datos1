@@ -5,7 +5,7 @@ class Genero
 private:
 	char nombreGenero[30];
 	char interprete[30];
-	char genero[30];
+	char grupo[30];
 
 public:
 	Genero(void);
@@ -19,8 +19,8 @@ public:
 	char *getInterprete();
 	void setInterprete(char *);
 
-	char *getGenero();
-	void setGenero(char *);
+	char *getGrupo();
+	void setGrupo(char *);
 
 };
 

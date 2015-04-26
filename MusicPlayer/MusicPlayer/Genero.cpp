@@ -5,7 +5,7 @@ Genero::Genero(void)
 {
 	setNombreGenero("No definido");
 	setInterprete("No definido");
-	setGenero("No definido");
+	setGrupo("No definido");
 }
 
 
@@ -13,10 +13,10 @@ Genero::~Genero(void)
 {
 }
 
-Genero::Genero(char * _nombreGenero, char * _Interprete, char * _Genero){
+Genero::Genero(char * _nombreGenero, char * _Interprete, char * _Grupo){
 	setNombreGenero(_nombreGenero);
 	setInterprete(_Interprete);
-	setGenero(_Genero);
+	setGrupo(_Grupo);
 }
 
 char *Genero::getNombreGenero(){
@@ -33,9 +33,9 @@ void Genero::setInterprete(char * _interprete){
 	strcpy(this->interprete, _interprete);
 }
 
-char *Genero::getGenero(){
-	return this->genero;
+char *Genero::getGrupo(){
+	return this->grupo;
 }
-void Genero::setGenero(char * _genero){
-	strcpy(this->genero, _genero);
+void Genero::setGrupo(char * _grupo){
+	strcpy(this->grupo, _grupo);
 }
