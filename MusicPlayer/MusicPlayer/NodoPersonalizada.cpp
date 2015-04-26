@@ -30,13 +30,20 @@ void NodoPersonalizada::setPersonalizada(Personalizada * _perso){
 NodoPersonalizada *NodoPersonalizada::getSgte(){
 	return this->Sgte;
 }
-void NodoPersonalizada::setSgte(Personalizada * _Sgte){
+void NodoPersonalizada::setSgte(NodoPersonalizada * _Sgte){
 	this->Sgte = _Sgte;
 }
 
 NodoPersonalizada *NodoPersonalizada::getAnte(){
 	return this->Ante;
 }
-void NodoPersonalizada::setAnte(Personalizada * _Ante){
+void NodoPersonalizada::setAnte(NodoPersonalizada * _Ante){
 	this->Ante = _Ante;
+}
+
+ListaCancionXperso *NodoPersonalizada::getDLCanciones(){
+	return this->DLCanciones;
+}
+void NodoPersonalizada::setDLCanciones(ListaCancionXperso *_DLCanciones){
+	this->DLCanciones = _DLCanciones;
 }

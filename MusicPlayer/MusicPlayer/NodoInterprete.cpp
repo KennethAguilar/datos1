@@ -3,6 +3,8 @@
 
 NodoInterprete::NodoInterprete(void)
 {
+	setInterprete(new Interprete());
+	setSgte(NULL);
 }
 
 

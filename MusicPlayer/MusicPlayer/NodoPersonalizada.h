@@ -1,11 +1,13 @@
 #pragma once
 #include "Personalizada.h"
+#include "ListaCancionXperso.h"
 class NodoPersonalizada
 {
 private:
 	Personalizada *perso;
 	NodoPersonalizada *Sgte;
 	NodoPersonalizada *Ante;
+	ListaCancionXperso *DLCanciones;
 
 public:
 	NodoPersonalizada(void);
@@ -17,9 +19,12 @@ public:
 	void setPersonalizada(Personalizada *);
 
 	NodoPersonalizada *getSgte();
-	void setSgte(Personalizada *);
+	void setSgte(NodoPersonalizada *);
 
 	NodoPersonalizada *getAnte();
-	void setAnte(Personalizada *);
+	void setAnte(NodoPersonalizada *);
+
+	ListaCancionXperso *getDLCanciones();
+	void setDLCanciones(ListaCancionXperso *);
 };
 
