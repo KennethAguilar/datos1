@@ -25,7 +25,13 @@ bool ListaGenero::vacia(){
 		return false;
 }
 
-NodoGenero *ListaGenero::DirNodo(char *){}
-NodoGenero *ListaGenero::DirAnterior(char *){}
-NodoGenero *ListaGenero::DirUltimo(){}
+NodoGenero *ListaGenero::DirNodo(char *){
+	return NULL;
+}
+NodoGenero *ListaGenero::DirAnterior(char *){
+	return NULL;
+}
+NodoGenero *ListaGenero::DirUltimo(){
+	return NULL;
+}
 void ListaGenero::AgregarNodoDespues(NodoGenero *, NodoGenero *){}

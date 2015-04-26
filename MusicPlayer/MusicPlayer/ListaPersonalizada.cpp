@@ -26,6 +26,10 @@ bool ListaPersonalizada::vacia(){
 		return false;
 }
 
-NodoPersonalizada *DirNodo(char *){}
-NodoPersonalizada *DirUltimo(){}
+NodoPersonalizada *DirNodo(char *){
+	return NULL;
+}
+NodoPersonalizada *DirUltimo(){
+	return NULL;
+}
 void agregarNodoDespues(NodoPersonalizada *, NodoPersonalizada *){}

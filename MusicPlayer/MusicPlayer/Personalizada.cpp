@@ -17,8 +17,8 @@ Personalizada::Personalizada(char * _nombrePersonalizada){
 }
 
 char *Personalizada::getNombrePersonalizada(){
-	return this->getNombrePersonalizada;
+	return this->nombrePersonalizada;
 }
 void Personalizada::setNombrePersonalizada(char * _nombrePersonalizada){
-	strcpy(this->nombrePersonalizada, _nombrePersonalizada);
+	strcpy_s(this->nombrePersonalizada, _nombrePersonalizada);
 }

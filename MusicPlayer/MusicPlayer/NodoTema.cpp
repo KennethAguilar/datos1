@@ -31,13 +31,13 @@ void NodoTema::setTema(tema * _tema){
 NodoTema *NodoTema::getSgte(){
 	return this->sgte;
 }
-NodoTema NodoTema::setSgte(NodoTema * _Sgte){
+void NodoTema::setSgte(NodoTema * _Sgte){
 	this->sgte = _Sgte;
 }
 
 NodoTema *NodoTema::getAnte(){
 	return this->ante;
 }
-NodoTema NodoTema::setAnte(NodoTema * _Ante){
+void NodoTema::setAnte(NodoTema * _Ante){
 	this->ante = _Ante;
 }

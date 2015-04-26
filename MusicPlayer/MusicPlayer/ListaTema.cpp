@@ -14,7 +14,7 @@ ListaTema::~ListaTema(void)
 NodoTema *ListaTema::getCab(){
 	return this->cab;
 }
-NodoTema ListaTema::setCab(NodoTema * _cab){
+void ListaTema::setCab(NodoTema * _cab){
 	this->cab = _cab;
 }
 
@@ -25,6 +25,10 @@ bool ListaTema::vacia(){
 		return false;
 }
 
-NodoTema *ListaTema::DirNodo(int){}
-NodoTema *ListaTema::DirUltimo(){}
+NodoTema *ListaTema::DirNodo(int){
+	return NULL;
+}
+NodoTema *ListaTema::DirUltimo(){
+	return NULL;
+}
 void ListaTema::agregarNodoDespues(NodoTema *, NodoTema *){}

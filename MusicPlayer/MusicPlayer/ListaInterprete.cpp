@@ -34,7 +34,7 @@ NodoInterprete *ListaInterprete::DirNodo(char * _nombre){
 	NodoInterprete *aux = getCab();
 	bool encontrado = false;
 	while((aux != NULL) && (!encontrado)){
-		if(strcmp(aux->getInterprete()->getNombre, _nombre) != 0)
+		if(strcmp(aux->getInterprete()->getNombre(), _nombre) != 0)
 			aux = aux->getSgte();
 		else
 			encontrado = true;
@@ -51,13 +51,13 @@ NodoInterprete *ListaInterprete::DirAnterior(char * _nombre){
 
 	
 	NodoInterprete *aux;
-	if((getCab() == NULL ) || (getCab()->getInterprete()->getNombre, _nombre) == 0)
+	if((getCab() == NULL ) || (getCab()->getInterprete()->getNombre(), _nombre) == 0)
 		aux = NULL;
 	else{
 		aux = getCab();
 		bool encontrado = false;
 		while((aux->getSgte() != NULL) && (!encontrado)){
-			if(strcmp(aux->getSgte()->getInterprete()->getNombre, _nombre) != 0)
+			if(strcmp(aux->getSgte()->getInterprete()->getNombre(), _nombre) != 0)
 				aux = aux->getSgte();
 			else
 				encontrado = true;

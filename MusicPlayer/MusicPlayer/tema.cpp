@@ -31,14 +31,14 @@ char *tema::getNombreTema(){
 	return this->nombreTema;
 }
 void tema::setNombreTema(char * _NombreTema){
-	strcpy(this->nombreTema, _NombreTema);
+	strcpy_s(this->nombreTema, _NombreTema);
 }
 
 char *tema::getNombreDisco(){
 	return this->nombreDisco;
 }
 void tema::setNombreDisco(char * _NombreDisco){
-	strcpy(this->nombreDisco, _NombreDisco);
+	strcpy_s(this->nombreDisco, _NombreDisco);
 }
 
 int tema::getAnno(){
@@ -52,19 +52,19 @@ char *tema::getEmpresaDisquera(){
 	return this->empresaDisquera;
 }
 void tema::setEmpresaDisquera(char * _empresaDisquera){
-	strcpy(this->empresaDisquera, _empresaDisquera);
+	strcpy_s(this->empresaDisquera, _empresaDisquera);
 }
 
 char *tema::getGrupo(){
 	return this->grupo;
 }
 void tema::setGrupo(char * _grupo){
-	strcpy(this->grupo, _grupo);
+	strcpy_s(this->grupo, _grupo);
 }
 
 char *tema::getGenero(){
 	return this->genero;
 }
 void tema::setGenero(char * _genero){
-	strcpy(this->genero, _genero);
+	strcpy_s(this->genero, _genero);
 }

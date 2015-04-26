@@ -23,19 +23,19 @@ char *Genero::getNombreGenero(){
 	return this->nombreGenero;
 }
 void Genero::setNombreGenero(char * _nombreGenero){
-	strcpy(this->nombreGenero, _nombreGenero);
+	strcpy_s(this->nombreGenero, _nombreGenero);
 }
 
 char *Genero::getInterprete(){
 	return this->interprete;
 }
 void Genero::setInterprete(char * _interprete){
-	strcpy(this->interprete, _interprete);
+	strcpy_s(this->interprete, _interprete);
 }
 
 char *Genero::getGrupo(){
 	return this->grupo;
 }
 void Genero::setGrupo(char * _grupo){
-	strcpy(this->grupo, _grupo);
+	strcpy_s(this->grupo, _grupo);
 }

@@ -17,10 +17,10 @@ public:
 	void setTema(tema *);
 
 	NodoTema *getSgte();
-	NodoTema setSgte(NodoTema *);
+	void setSgte(NodoTema *);
 
 	NodoTema *getAnte();
-	NodoTema setAnte(NodoTema *);
+	void setAnte(NodoTema *);
 
 };
 

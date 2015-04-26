@@ -23,7 +23,7 @@ void NodoGenero::setGener(Genero * _gener){
 }
 
 NodoGenero *NodoGenero::getSget(){
-	return this->setSgte;
+	return this->Sgte;
 }
 void NodoGenero::setSgte(NodoGenero * _Sgte){
 	this->Sgte = _Sgte;

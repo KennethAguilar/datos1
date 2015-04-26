@@ -26,7 +26,13 @@ bool ListaGrupo::vacia(){
 }
 
 
-NodoGrupo *ListaGrupo::DirNodo(char *){}
-NodoGrupo *ListaGrupo::DirAnterior(char *){}
-NodoGrupo *ListaGrupo::DirUltimo(){}
+NodoGrupo *ListaGrupo::DirNodo(char *){
+	return NULL;
+}
+NodoGrupo *ListaGrupo::DirAnterior(char *){
+	return NULL;
+}
+NodoGrupo *ListaGrupo::DirUltimo(){
+	return NULL;
+}
 void ListaGrupo::AgregarNodoDespues(NodoGrupo *, NodoGrupo *){}

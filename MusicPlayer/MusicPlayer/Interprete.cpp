@@ -26,7 +26,7 @@ char *Interprete::getLugarNacimiento(){
 	return this->lugarNacimiento;
 }
 void Interprete::setLugarNacimiento(char * _LugarNacimiento){
-	strcpy(this->lugarNacimiento, _LugarNacimiento);
+	strcpy_s(this->lugarNacimiento, _LugarNacimiento);
 }
 
 int Interprete::getAnnoNacimiento(){
@@ -47,5 +47,5 @@ char *Interprete::getNombre(){
 	return this->nombre;
 }
 void Interprete::setNombre(char * _Nombre){
-	strcpy(this->nombre, _Nombre);
+	strcpy_s(this->nombre, _Nombre);
 }

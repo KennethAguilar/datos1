@@ -15,7 +15,7 @@ public:
 	~ListaTema(void);
 
 	NodoTema *getCab();
-	NodoTema setCab(NodoTema *);
+	void setCab(NodoTema *);
 
 	bool vacia();
 

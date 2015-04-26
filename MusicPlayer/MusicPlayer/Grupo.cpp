@@ -23,7 +23,7 @@ char *Grupo::getPaisProcedencia(){
 	return this->paisProcedencia;
 }
 void Grupo::setPaisProcedencia(char * _paisPrecedencia){
-	strcpy(this->paisProcedencia, _paisPrecedencia);
+	strcpy_s(this->paisProcedencia, _paisPrecedencia);
 }
 
 int Grupo::getFechaCreacion(){
@@ -37,5 +37,5 @@ char *Grupo::getNombreGrupo(){
 	return this->nombreGrupo;
 }
 void Grupo::setNombreGrupo(char * _nombreGrupo){
-	strcpy(this->nombreGrupo, _nombreGrupo);
+	strcpy_s(this->nombreGrupo, _nombreGrupo);
 }
