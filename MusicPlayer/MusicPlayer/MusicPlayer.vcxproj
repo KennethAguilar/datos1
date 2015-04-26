@@ -81,12 +81,18 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ListaTema.h" />
+    <ClInclude Include="NodoTema.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="tema.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ListaTema.cpp" />
     <ClCompile Include="MusicPlayer.cpp" />
+    <ClCompile Include="NodoTema.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="tema.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

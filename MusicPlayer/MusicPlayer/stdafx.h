@@ -9,7 +9,9 @@
 
 #include <stdio.h>
 #include <tchar.h>
-
+#include <iostream>
+#include <stdlib.h>
+using  namespace std;
 
 
 // TODO: mencionar aquí los encabezados adicionales que el programa necesita
