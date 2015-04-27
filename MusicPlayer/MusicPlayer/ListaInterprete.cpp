@@ -96,13 +96,13 @@ void ListaInterprete::agregarNodoDespues(NodoInterprete * _ref, NodoInterprete *
 
 }
 
-void ListaInterprete::InsertarFinal(Interprete* _nombre){
+void ListaInterprete::InsertarFinal(Interprete* _interprete){
 
 
 	//Agrege un nodo cuya informacion es _iCurso
 	//Y lo agrega el final de la lista
 
-	NodoInterprete *temp = new NodoInterprete(_nombre); //Paso 1
+	NodoInterprete *temp = new NodoInterprete(_interprete); //Paso 1
 	NodoInterprete *ult = DirUltimo();
 	if(ult != NULL)
 		ult->setSgte(temp);

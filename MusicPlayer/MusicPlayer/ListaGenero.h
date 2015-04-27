@@ -19,5 +19,8 @@ public:
 
 	bool vacia();
 
+	void InsertarFinal(Genero *);
+	void desplegarLISTA();
+
 };
 

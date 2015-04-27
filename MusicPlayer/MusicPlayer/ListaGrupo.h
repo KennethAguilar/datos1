@@ -18,5 +18,8 @@ public:
 
 	bool vacia();
 
+	void InsertarFinal(Grupo*);
+	void desplegarLISTA();
+
 };
 
