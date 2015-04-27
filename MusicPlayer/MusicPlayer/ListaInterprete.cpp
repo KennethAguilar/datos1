@@ -118,13 +118,12 @@ void ListaInterprete::desplegarLISTA(){
 
 	NodoInterprete *aux =getCab();
 	cout << "Lista de Interpretes" <<endl;
-	cout << "Nombre " << "\t" << "Ligar de nacimiento: " << "\t" <<"Edad: "<< "Anno de nacimiento: "<<"\t" << endl;
 	while (aux != NULL)
 	{
 		cout << "Nombre: " << aux->getInterprete()->getNombre() << endl;
 		cout << "Lugar de nacimiento: " << aux->getInterprete()->getLugarNacimiento() << endl;
 		cout << "Edad: " << aux->getInterprete()->getEdad() << endl;
-		cout << "Anno de nacimiento: " << aux->getInterprete()->getAnnoNacimiento() << endl;
+		cout << "Anno de nacimiento: " << aux->getInterprete()->getAnnoNacimiento() << endl << endl;
 
 		aux = aux->getSgte();
 	}
